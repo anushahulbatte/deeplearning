@@ -10,3 +10,5 @@ To visualise the performance, graphs have been plotted of the losses and accurac
 
 The testing_with_GO_annotations python file includes running the model on the given GO annotation terms. The model was used to test how it performs on a real protein sequence dataset. To evaluate the performance of the model on the different GO terms, various metrics were used. 
 The notebook also includes running the model on human protein sequence data and testing the performance of the model on this dataset. 
+
+The confusion matrices, classification reports and accuracies may not match the ones reported in the report due to the randomisation parameter when splitting the dataset in training, validation and testing datasets. 
