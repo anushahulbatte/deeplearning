@@ -8,4 +8,5 @@ Task_a_validation_set python notebook contains code to building the 1D-CNN with 
 The performance of the model was also tested on another simulated dataset containing protein sequences of much longer lengths. 
 To visualise the performance, graphs have been plotted of the losses and accuracies of the training, validation and test sets. 
 
-The
+The testing_with_GO_annotations python file includes running the model on the given GO annotation terms. The model was used to test how it performs on a real protein sequence dataset. To evaluate the performance of the model on the different GO terms, various metrics were used. 
+The notebook also includes running the model on human protein sequence data and testing the performance of the model on this dataset. 
